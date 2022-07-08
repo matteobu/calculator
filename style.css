@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.calculator {
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+
+.buttons {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn_first_row,
+.btn_second_row,
+.btn_third_row,
+.btn_fourth_row,
+.btn_fifth_row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: beige;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
