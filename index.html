@@ -5,44 +5,45 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+
         <title>Calculator with Javascript</title>
     </head>
     <body>
         <div class="calculator">
-            <div class="output"></div>
+            <div class="output">OUTPUT</div>
             <div class="buttons">
                 <div class="btn_first_row">
-                    <div class="btn">(</div>
-                    <div class="btn">)</div>
-                    <div class="btn">%</div>
-                    <div class="btn">/</div>
+                    <div class="open_bracket btn">(</div>
+                    <div class="closing_bracket btn">)</div>
+                    <div class="percent btn">%</div>
+                    <div class="btn" id="divideBtn">/</div>
                 </div>
                 <div class="btn_second_row">
-                    <div class="btn">7</div>
-                    <div class="btn">8</div>
-                    <div class="btn">9</div>
-                    <div class="btn">*</div>
+                    <div class="number_btn btn">7</div>
+                    <div class="number_btn btn">8</div>
+                    <div class="number_btn btn">9</div>
+                    <div class="btn" id="multiplyBtn">*</div>
                 </div>
                 <div class="btn_third_row">
-                    <div class="btn">6</div>
-                    <div class="btn">5</div>
-                    <div class="btn">4</div>
-                    <div class="btn">-</div>
+                    <div class="number_btn btn">6</div>
+                    <div class="number_btn btn">5</div>
+                    <div class="number_btn btn">4</div>
+                    <div class="btn" id="subtractBtn">-</div>
                 </div>
                 <div class="btn_fourth_row">
-                    <div class="btn">3</div>
-                    <div class="btn">2</div>
-                    <div class="btn">1</div>
-                    <div class="btn">+</div>
+                    <div class="number_btn btn">3</div>
+                    <div class="number_btn btn">2</div>
+                    <div class="number_btn btn">1</div>
+                    <div class="btn" id="addBtn">+</div>
                 </div>
                 <div class="btn_fifth_row">
-                    <div class="btn">0</div>
-                    <div class="btn">.</div>
-                    <div class="btn">C</div>
-                    <div class="btn">=</div>
+                    <div class="number_btn btn">0</div>
+                    <div class="dot btn">.</div>
+                    <div class="cancel btn">C</div>
+                    <div class="equal btn">=</div>
                 </div>
             </div>
         </div>
     </body>
-    <script src="calculator.js"></script>
+    <script src="assets/calculator.js"></script>
 </html>
